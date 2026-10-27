@@ -1,7 +1,4 @@
-# astrophysics-research-projects
-Independent astrophysics investigations using TESS, Gaia, and CCD observations, extending undergraduate coursework.
-
-# Astrophysics Projects
+# Astrophysics Research Projects
 
 **Danessa Ruff**  
 Michigan State University | Astrophysics
