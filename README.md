@@ -3,9 +3,9 @@
 **Danessa Ruff**  
 Michigan State University | Astrophysics
 
-This repository contains three astrophysics projects I developed as extensions of my AST 208 coursework at Michigan State University. Each project started with observational data and methods introduced in class, which I used as a starting point for further analysis in Python.
+This repository contains three projects I developed independently from work I began in AST 208 at Michigan State University. Using datasets introduced in class, I expanded the original assignments to explore additional questions and methods in Python.
 
-The projects cover exoplanet transits, CCD image processing, and stellar motions in a globular cluster. My goal was to explore the data beyond the original assignments and gain more experience with astronomical data analysis, uncertainty, and computational methods.
+The projects focus on exoplanet transits, CCD photometry, and stellar kinematics. Each gave me an opportunity to work with different types of astronomical data and examine how measurement uncertainty, data selection, and modeling assumptions affect the results.
 
 ## Projects
 
@@ -15,15 +15,17 @@ The projects cover exoplanet transits, CCD image processing, and stellar motions
 
 I analyzed repeated transit signals in a TESS light curve to estimate the orbital period, transit depth, duration, and radius of a possible exoplanet. I also used Monte Carlo sampling to estimate uncertainties and numerical integration to model the orbital motion.
 
-The analysis gave an orbital period of approximately 4.72 days and an estimated planetary radius of 1.42 ± 0.05 Jupiter radii. These results are consistent with a close-in giant planet candidate, although the light curve alone cannot confirm its planetary nature.
+I measured an orbital period of approximately 4.72 days and estimated a planetary radius of 1.42 ± 0.05 Jupiter radii. These measurements are consistent with a close-in giant planet candidate, although the light curve alone cannot confirm that the object is a planet.
+
+[View Exoplanet notebook](PASTE-EXOPLANET-URL-HERE)
 
 ### 2. CCD Calibration and Photometry of Messier 1
 
 **Dataset:** Skynet Robotic Telescope Network, PROMPT 5 telescope
 
-For this project, I worked with B, V, and r-band CCD images of Messier 1 (the Crab Nebula). I calibrated the images, created a three-color composite, and measured the flux of a selected star using aperture photometry.
+I worked with B, V, and r-band CCD images of Messier 1 (the Crab Nebula). I calibrated the images, created a three-color composite, and measured the flux of a selected star using aperture photometry.
 
-I compared measurements from the raw and calibrated images and calculated instrumental B−V and V−r color indices. This allowed me to examine how image calibration affects photometric measurements.
+I compared measurements from the raw and calibrated images and calculated instrumental B−V and V−r color indices to examine how CCD calibration affects photometric measurements.
 
 [View Messier 1 notebook](M1-CCD-Photometry.ipynb)
 
@@ -43,13 +45,13 @@ The estimated dispersion generally decreased farther from the cluster center, al
 
 - Python and Jupyter Notebook
 - NumPy, Pandas, Matplotlib, and Astropy
-- Astronomical image processing and aperture photometry
+- CCD calibration and aperture photometry
 - Statistical analysis and uncertainty estimation
 - Orbital calculations and numerical integration
-- Gaia astrometry and stellar proper motions
+- Gaia astrometry and proper-motion analysis
 
 ## Project Background
 
-All three projects build on material from AST 208 at Michigan State University, taught by Dr. Joey Rodriguez. The datasets were provided through coursework, while the additional analyses were developed independently.
+These projects build on AST 208 coursework at Michigan State University, taught by Dr. Joey Rodriguez. The datasets and introductory methods were provided through the course, while the additional analyses were developed independently.
 
-Each notebook includes the methods, calculations, results, limitations, and acknowledgments for its respective project.
+Each notebook documents the methods, results, limitations, and acknowledgments.
